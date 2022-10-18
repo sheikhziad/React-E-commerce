@@ -1,0 +1,45 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card img {
+    padding: 10%;
+    height: 300px;
+}
+
+.cart img { 
+    height: 150px;
+}
+
+.nav-link{
+    size: 30px;
+}
+
+@media screen and (min-width: 500px) {
+    .headerBg{
+        background-image: url('https://images.pexels.com/photos/5625112/pexels-photo-5625112.jpeg?auto=compress&cs=tinysrgb&w=900&h=640&dpr=1');
+        height: 480px;
+    }
+}
+
+@media screen and (min-width: 995px) {
+    .headerBg{
+        background-image: url('https://images.pexels.com/photos/5625112/pexels-photo-5625112.jpeg?auto=compress&cs=tinysrgb&w=1960&h=880&dpr=1');
+        height: 580px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    
+    .cart img {
+        width: 50px;
+        object-fit: cover !important;
+    }
+
+    .headerBg{
+        background-image: url('https://images.pexels.com/photos/5625112/pexels-photo-5625112.jpeg?auto=compress&cs=tinysrgb&w=600&h=1500&dpr=1');
+        height: 400px;
+    }
+}
